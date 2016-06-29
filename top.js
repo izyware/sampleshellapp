@@ -1,5 +1,4 @@
 var modtask = function(push) {
-    // https://izyware.com/app.html?appid=sampleshellapp+ui/theme/whiteblue+ui/w/shell+host/browser+ui/node+encodedecode+ui/adp+ui/w+ui/conn&startide=1
     var dataservice = 'https://izyware.com/';
     modtask.modcfg = {
         getName: function(nam) {
@@ -82,21 +81,6 @@ var modtask = function(push) {
                     }
                 ]
             }
-            /*,
-
-                         "footer" :
-                         {
-                         "parts" : "ext",
-                         "what" : "ui\\w\\shell\\footer",
-                         "initval" :
-                         {
-                         "copyrightnotice" : "Copyright 2009-2015, Juxly Inc.",
-                         "overlaytarget" : modtask,
-                         "modcfg" : modtask.modcfg,
-                         "modnav" : modtask.ldmod("rel:nav"),
-                         "footeritems" : modtask.publicnavitems
-                         }
-                         }*/
         }
     });
 }
