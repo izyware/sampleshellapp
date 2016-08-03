@@ -15,6 +15,6 @@ First, log in to your account and [set up a new project](https://izyware.com/):
 ## Non-hosted setup instructions
 
 * Clone the repository 
-* Download the [built tool](https://izyware.com/) 
+* Download the [built tool](https://izyware.com/) or use `npm install izy`
 * Use the following command to generate the JS payload: `izy.createjspayload  sampleshellapp/viewer/top`
 * Insert the JS payload into the header section of your HTML container 
